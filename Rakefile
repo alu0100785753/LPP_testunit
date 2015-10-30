@@ -2,7 +2,7 @@ task :default => :tu
 
 desc "Pruebas unitarias de la clase Fractnum"
 task :tu do
-  sh "ruby -I. test/Fractnum_testunit.rb"
+  sh "ruby -I. test/fractnum_testunit.rb"
 end
 
 desc "Ejecutar solo las pruebas simples"
